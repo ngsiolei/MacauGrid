@@ -1,4 +1,4 @@
-Simple script to convert Macau Grid cooridinate into Latitude/Longitude
+Simple script to convert Macau Grid coordinate into Latitude/Longitude
 
 ###Example
 
