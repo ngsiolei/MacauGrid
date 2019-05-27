@@ -2,8 +2,8 @@ function MacauGrid() {
 }
 
 /*
-   source:
-   1. http://mosref.dscc.gov.mo/Help/Macaucoord_2009_web_CT.pdf
+    source:
+    1. https://mosref.dscc.gov.mo/Help/ref/Macaucoord_2009_web_CT_v201702.pdf
 */
 MacauGrid.prototype.toWgs84Cartesian = function (E, N) {
   var E0 = 21688.365; //origin of rotation
@@ -19,9 +19,9 @@ MacauGrid.prototype.toWgs84Cartesian = function (E, N) {
 }
 
 /*
-   sources:
-   1. http://mosref.dscc.gov.mo/Help/Macaucoord_2009_web_CT.pdf
-   2. http://www.linz.govt.nz/sites/default/files/document/25002-LINZS25002%20Standard%20for%20New%20Zealand%20Geodetic%20Datum%202000%20Projections-%20version%202_4.pdf
+    sources:
+    1. https://mosref.dscc.gov.mo/Help/ref/Macaucoord_2009_web_CT_v201702.pdf
+    2. https://www.linz.govt.nz/regulatory/25703
 */
 MacauGrid.prototype.toWgs84Geodetic = function (E, N) {
   var a = 6378137; //major semi-axis

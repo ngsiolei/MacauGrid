@@ -1,6 +1,6 @@
 Simple script to convert Macau Grid coordinate into Latitude/Longitude
 
-###Example
+### Example
 
     <script src="./MacauGrid.js"></script>
     <script>
@@ -9,9 +9,9 @@ Simple script to convert Macau Grid coordinate into Latitude/Longitude
     var cartesian = mg.toWgs84Cartesian(pt.E, pt.N);
     var geo = mg.toWgs84Geodetic(cartesian.east, cartesian.north);
     console.log(geo); // {'lat': 22.194444429765454, 'long': 113.54722220609713}
-    </script>  
+    </script>
 
-###References
+### References
 
-1. http://mosref.dscc.gov.mo/Help/Macaucoord_2009_web_CT.pdf
-2. http://www.linz.govt.nz/sites/default/files/document/25002-LINZS25002%20Standard%20for%20New%20Zealand%20Geodetic%20Datum%202000%20Projections-%20version%202_4.pdf
+1. https://mosref.dscc.gov.mo/Help/ref/Macaucoord_2009_web_CT_v201702.pdf
+2. https://www.linz.govt.nz/regulatory/25703
